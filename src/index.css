@@ -1,0 +1,38 @@
+
+.cal-body{
+    background-color: orange;
+    margin: 100px 300px 300px 450px;
+    width: 400px;
+}
+.display-screen{
+    height: 100px;
+    background-color: orange;
+}
+.result-screen{
+    padding: 5px 2px 2px 2px;
+    height: 30px;
+    text-align: right;
+}
+.compute-screen{
+    padding: 3px;
+    height: 50px;
+    
+}
+
+.keypadrow{
+    height: 80px;
+    width: 400px;
+}
+.btn{
+    width: 100px;
+    height:80px;    
+}
+.btn:hover{
+    background-color: orange;
+}
+
+.equals{
+    height:80px;
+    width: 500px;
+    background-color: pink;
+}
