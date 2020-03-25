@@ -1,9 +1,13 @@
 import React from 'react';
 
 const button = (props)=>(
-    <button className='btn' onClick = {props.onClick}>
+    <button className={props.className} onClick = {props.onClick}>
         {props.children}
     </button>
 );
+
+button.defaultProps={
+    className :'btn',
+};
 
 export default button;

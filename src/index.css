@@ -33,6 +33,9 @@
 
 .equals{
     height:80px;
-    width: 500px;
-    background-color: pink;
+    width: 200px;
+}
+
+.equals:hover{
+    background-color: orange;
 }
