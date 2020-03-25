@@ -31,7 +31,7 @@ const KeyPadComponent = (props) =>(
                 <KeyPadRow>
                     <Button onClick = {props.onClick}>0</Button>
                     <Button onClick = {props.onClick}>.</Button>
-                    <Button onClick = {props.onClick} className="equals">=</Button>
+                    <Button onClick = {props.onClick}>=</Button>
                 </KeyPadRow>
             </section>
         );
